@@ -13,8 +13,8 @@ public void fractal(int x, int y, int s, int w, int h)
 {
   stroke(0, 0, 0, 10);
   fill(250, 76, 160, 1);
-  ellipse(x+s, y, w, h);
-  ellipse(x-s, y, w, h);
+  rect(x+s, y, w, h);
+  rect(x-s, y, w, h);
   if (s > 0)
   {
     fractal(x, y, s-2, w - s, h - s);
