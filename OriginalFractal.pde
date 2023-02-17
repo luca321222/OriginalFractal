@@ -7,7 +7,7 @@ public void setup()
 }
 public void draw()
 {
-  fractal(400, 400, 50, 20, 20, 1);
+  fractal(400, 400, 30, 20, 20, 1);
 }
 public void fractal(int x, int y, int s, int w, int h, int o)
 {
