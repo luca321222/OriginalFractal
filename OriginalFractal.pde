@@ -8,7 +8,7 @@ public void setup()
 public void draw()
 {
   translate(400,400);
-  fractal(0, 0, 30, 20, 20);
+  fractal(0, 0, 50, 20, 20);
 }
 public void fractal(int x, int y, int s, int w, int h)
 {
