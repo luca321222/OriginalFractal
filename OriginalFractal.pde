@@ -2,12 +2,12 @@ public void setup()
 {
   background(48, 131, 216);
   size(800, 800);
-  ellipseMode(CENTER);
   frameRate(20);
 }
 public void draw()
 {
-  fractal(400, 400, 30, 20, 20);
+  translate(400,400);
+  fractal(0, 0, 30, 20, 20);
 }
 public void fractal(int x, int y, int s, int w, int h)
 {
