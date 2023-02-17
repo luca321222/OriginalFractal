@@ -7,9 +7,9 @@ public void setup()
 }
 public void draw()
 {
-  fractal(400, 400, 30, 20, 20, 1);
+  fractal(400, 400, 30, 20, 20);
 }
-public void fractal(int x, int y, int s, int w, int h, int o)
+public void fractal(int x, int y, int s, int w, int h)
 {
   stroke(0, 0, 0, 10);
   fill(250, 76, 160, 1);
@@ -17,6 +17,6 @@ public void fractal(int x, int y, int s, int w, int h, int o)
   ellipse(x-s, y, w, h);
   if (s > 0)
   {
-    fractal(x, y, s-2, w - s, h - s, o/2);
+    fractal(x, y, s-2, w - s, h - s);
   }
 }
