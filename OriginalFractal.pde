@@ -3,6 +3,7 @@ public void setup()
   background(48, 131, 216);
   size(800, 800);
   frameRate(20);
+  rectMode(CENTER);
 }
 public void draw()
 {
