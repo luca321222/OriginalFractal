@@ -3,6 +3,7 @@ public void setup()
   background(48, 131, 216);
   size(800, 800);
   ellipseMode(CENTER);
+  frameRate(20);
 }
 public void draw()
 {
